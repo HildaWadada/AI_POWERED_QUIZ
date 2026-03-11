@@ -1,0 +1,608 @@
+[
+    {
+        "qid": "8bd86f21-bc38-4b10-a44c-a9b788444686",
+        "text": "Which of the following will remove a key from a dictionary in Python?",
+        "qtype": "MCQ",
+        "options": [
+            "del",
+            "remove()",
+            "pop()",
+            "clear()"
+        ],
+        "answer": "del",
+        "topic": "Python Dictionaries",
+        "source": "LLM",
+        "enabled": false,
+        "times_shown": 5,
+        "correct_count": 4,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "ffda13b6-7e2d-490c-9381-902425a2a7a9",
+        "text": "What is the difference between a dictionary and a list in Python?",
+        "qtype": "Freeform",
+        "options": [],
+        "answer": "A dictionary is an unordered collection of key-value pairs where keys are unique, while a list is an ordered collection of items that can contain duplicates.",
+        "topic": "Python Dictionaries",
+        "source": "LLM",
+        "enabled": false,
+        "times_shown": 15,
+        "correct_count": 3,
+        "incorrect_count": 6
+    },
+    {
+        "qid": "227ec72d-4959-41ff-9fa3-79075c2da3e9",
+        "text": "What does SQL stand for?",
+        "qtype": "MCQ",
+        "options": [
+            "Structured Query Language",
+            "Sequential Query Language",
+            "Simple Query Language"
+        ],
+        "answer": "Structured Query Language",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 11,
+        "correct_count": 8,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "fed45363-a65f-45bf-8c4a-ade0adbdd1bc",
+        "text": "Which of the following SQL commands is used to retrieve data from a database?",
+        "qtype": "MCQ",
+        "options": [
+            "INSERT",
+            "SELECT",
+            "UPDATE"
+        ],
+        "answer": "SELECT",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 13,
+        "correct_count": 7,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "1143aeb9-113d-40c3-a0d3-4273c592237c",
+        "text": "What is the purpose of the 'GROUP BY' clause in SQL?",
+        "qtype": "MCQ",
+        "options": [
+            "To filter records",
+            "To sort records",
+            "To aggregate records"
+        ],
+        "answer": "To aggregate records",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 18,
+        "correct_count": 1,
+        "incorrect_count": 10
+    },
+    {
+        "qid": "ba746981-d1c9-4513-b698-907e792a29d8",
+        "text": "Explain the difference between INNER JOIN and LEFT JOIN in SQL.",
+        "qtype": "Freeform",
+        "options": [],
+        "answer": "INNER JOIN returns records that have matching values in both tables, while LEFT JOIN returns all records from the left table and the matched records from the right table. If there is no match, NULL values are returned for columns from the right table.",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 17,
+        "correct_count": 3,
+        "incorrect_count": 8
+    },
+    {
+        "qid": "cb404894-7112-42d1-b781-ada4038fd9fa",
+        "text": "What does SQL stand for?",
+        "qtype": "MCQ",
+        "options": [
+            "Structured Query Language",
+            "Simple Query Language",
+            "Standard Query Language"
+        ],
+        "answer": "Structured Query Language",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 10,
+        "correct_count": 8,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "a64b89cf-a544-4abc-a715-c252149a11d6",
+        "text": "Which SQL statement is used to extract data from a database?",
+        "qtype": "MCQ",
+        "options": [
+            "GET",
+            "SELECT",
+            "EXTRACT"
+        ],
+        "answer": "SELECT",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 9,
+        "correct_count": 7,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "ba0024c6-c75f-49c4-86e5-92a6f64f1b20",
+        "text": "What keyword is used to sort the result set in SQL?",
+        "qtype": "MCQ",
+        "options": [
+            "ORDER BY",
+            "SORT BY",
+            "GROUP BY"
+        ],
+        "answer": "ORDER BY",
+        "topic": "SQL",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 7,
+        "correct_count": 2,
+        "incorrect_count": 3
+    },
+    {
+        "qid": "1f9617ce-9c21-4133-832c-4f8ee9dc1216",
+        "text": "What does OOP stand for?",
+        "qtype": "MCQ",
+        "options": [
+            "Object-Oriented Programming",
+            "Operational Object Protocol",
+            "Open Object Principle"
+        ],
+        "answer": "Object-Oriented Programming",
+        "topic": "OOP",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 9,
+        "correct_count": 7,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "be800673-ea7b-4a96-9622-ea51f7242db9",
+        "text": "Which of the following is NOT a principle of OOP?",
+        "qtype": "MCQ",
+        "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Compilation"
+        ],
+        "answer": "Compilation",
+        "topic": "OOP",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 8,
+        "correct_count": 6,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "e007dc6c-3762-492f-8f9c-67420d761741",
+        "text": "What is a class in OOP?",
+        "qtype": "MCQ",
+        "options": [
+            "A blueprint for creating objects",
+            "A type of function",
+            "A method of data storage"
+        ],
+        "answer": "A blueprint for creating objects",
+        "topic": "OOP",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 9,
+        "correct_count": 7,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "aa034954-e9f0-4777-946c-244015da02c8",
+        "text": "What is Node.js primarily used for?",
+        "qtype": "MCQ",
+        "options": [
+            "Building desktop applications",
+            "Server-side web development",
+            "Database management",
+            "Mobile app development"
+        ],
+        "answer": "Server-side web development",
+        "topic": "node js",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 8,
+        "correct_count": 5,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "2ed9bd69-bfa2-4f19-98cb-0476da84ec50",
+        "text": "Which of the following is a feature of Node.js?",
+        "qtype": "MCQ",
+        "options": [
+            "Single-threaded event loop",
+            "Multi-threaded by default",
+            "Synchronous I/O operations",
+            "Built-in GUI support"
+        ],
+        "answer": "Single-threaded event loop",
+        "topic": "node js",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 10,
+        "correct_count": 6,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "c5f0df90-12aa-4b97-8ae2-5120d11435be",
+        "text": "Which package manager is commonly used with Node.js?",
+        "qtype": "MCQ",
+        "options": [
+            "Pip",
+            "Maven",
+            "Npm",
+            "Composer"
+        ],
+        "answer": "Npm",
+        "topic": "node js",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 8,
+        "correct_count": 5,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "c85e17d1-ea13-45d5-8c41-8b9ad39cab13",
+        "text": "What does API stand for?",
+        "qtype": "MCQ",
+        "options": [
+            "Application Programming Interface",
+            "Application Program Interface",
+            "Advanced Programming Interface"
+        ],
+        "answer": "Application Programming Interface",
+        "topic": "APIs",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 4,
+        "correct_count": 3,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "32ae6801-1495-4a37-9af4-b2d1d45feb83",
+        "text": "Which of the following is a common protocol used by APIs?",
+        "qtype": "MCQ",
+        "options": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "answer": "HTTP",
+        "topic": "APIs",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 3,
+        "correct_count": 2,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "a38d148e-5ac0-4739-bc19-bc443243d5a8",
+        "text": "What is the primary purpose of an API?",
+        "qtype": "MCQ",
+        "options": [
+            "To create user interfaces",
+            "To facilitate communication between different software applications",
+            "To manage databases"
+        ],
+        "answer": "To facilitate communication between different software applications",
+        "topic": "APIs",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 3,
+        "correct_count": 2,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "b9f838d6-8f7a-477f-9e3b-edfecf83f58d",
+        "text": "What is the primary cause of wind on Earth?",
+        "qtype": "MCQ",
+        "options": [
+            "The rotation of the Earth",
+            "Differences in air pressure",
+            "The Earth's magnetic field"
+        ],
+        "answer": "Differences in air pressure",
+        "topic": "Wind",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 3,
+        "correct_count": 2,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "8ac17894-a118-4568-8d6d-523d2b78b422",
+        "text": "What is the primary purpose of a library?",
+        "qtype": "MCQ",
+        "options": [
+            "To lend books",
+            "To provide internet access",
+            "To store books and information"
+        ],
+        "answer": "To store books and information",
+        "topic": "Libraries",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 1,
+        "correct_count": 1,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "94d39468-32cd-4e79-b365-aae72c4bdde2",
+        "text": "Which of the following is a common type of library?",
+        "qtype": "MCQ",
+        "options": [
+            "Public Library",
+            "Private Library",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "topic": "Libraries",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 2,
+        "correct_count": 0,
+        "incorrect_count": 2
+    },
+    {
+        "qid": "d0f7e724-9698-434d-b2cd-da7e92abf5fc",
+        "text": "What is the primary purpose of a firewall in cybersecurity?",
+        "qtype": "MCQ",
+        "options": [
+            "To encrypt data",
+            "To block unauthorized access",
+            "To store passwords"
+        ],
+        "answer": "To block unauthorized access",
+        "topic": "cyber security",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "dee1269f-d8d5-4465-9347-bd19b6e6d018",
+        "text": "Which of the following is a common type of phishing attack?",
+        "qtype": "MCQ",
+        "options": [
+            "Spear phishing",
+            "Ransomware",
+            "DDoS"
+        ],
+        "answer": "Spear phishing",
+        "topic": "cyber security",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 1,
+        "correct_count": 1,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "a9f3b99b-fd06-4105-a63d-63347131f78c",
+        "text": "Describe the importance of using strong passwords in cybersecurity.",
+        "qtype": "Freeform",
+        "options": [],
+        "answer": "Strong passwords are essential to protect accounts and sensitive information from unauthorized access, reducing the risk of data breaches.",
+        "topic": "cyber security",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 4,
+        "correct_count": 0,
+        "incorrect_count": 4
+    },
+    {
+        "qid": "a1bc6391-4ea7-4c1b-a107-106b415606b5",
+        "text": "What does AI stand for?",
+        "qtype": "MCQ",
+        "options": [
+            "Artificial Intelligence",
+            "Automated Integration",
+            "Advanced Information",
+            "Applied Innovation"
+        ],
+        "answer": "Artificial Intelligence",
+        "topic": "AI",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 3,
+        "correct_count": 3,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "4bcab019-0ade-4cc8-b44e-272b49fe6185",
+        "text": "Which of the following is a common application of AI?",
+        "qtype": "MCQ",
+        "options": [
+            "Weather Forecasting",
+            "Virtual Assistants",
+            "Manual Data Entry",
+            "None of the above"
+        ],
+        "answer": "Virtual Assistants",
+        "topic": "AI",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 2,
+        "correct_count": 0,
+        "incorrect_count": 2
+    },
+    {
+        "qid": "109564df-eb59-4e7e-b160-24d3ecfc6134",
+        "text": "What keyword is used to define a function in Python?",
+        "qtype": "MCQ",
+        "options": [
+            "def",
+            "function",
+            "fun",
+            "define"
+        ],
+        "answer": "def",
+        "topic": "Python",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 3,
+        "correct_count": 2,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "5014e88b-2cf1-41d9-9735-76c2872ac18b",
+        "text": "Which of the following data types is immutable in Python?",
+        "qtype": "MCQ",
+        "options": [
+            "list",
+            "set",
+            "tuple",
+            "dictionary"
+        ],
+        "answer": "tuple",
+        "topic": "Python",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 3,
+        "correct_count": 1,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "11158b45-b53f-4f19-bfd8-0b201e37ff72",
+        "text": "What is the output of the expression 3 * 'Python'?",
+        "qtype": "MCQ",
+        "options": [
+            "PythonPythonPython",
+            "3Python",
+            "Error",
+            "None"
+        ],
+        "answer": "PythonPythonPython",
+        "topic": "Python",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 2,
+        "correct_count": 0,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "aed84969-857c-44f8-8791-c27857c52273",
+        "text": "Explain the difference between a list and a tuple in Python.",
+        "qtype": "Freeform",
+        "options": [],
+        "answer": "Lists are mutable and can be changed after creation, while tuples are immutable and cannot be changed.",
+        "topic": "Python",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 4,
+        "correct_count": 0,
+        "incorrect_count": 3
+    },
+    {
+        "qid": "06dff302-12be-43bd-9042-a91c8909eb29",
+        "text": "Describe what a dictionary is in Python and provide an example.",
+        "qtype": "Freeform",
+        "options": [],
+        "answer": "A dictionary is a collection of key-value pairs. Example: {'key1': 'value1', 'key2': 'value2'}.",
+        "topic": "Python",
+        "source": "LLM",
+        "enabled": false,
+        "times_shown": 2,
+        "correct_count": 0,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "58299cf3-41d0-4149-aba1-8a1b7772950d",
+        "text": "What is the largest lake in the world by surface area?",
+        "qtype": "MCQ",
+        "options": [
+            "Lake Superior",
+            "Caspian Sea",
+            "Lake Victoria",
+            "Lake Baikal"
+        ],
+        "answer": "Caspian Sea",
+        "topic": "lakes",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 1,
+        "correct_count": 0,
+        "incorrect_count": 1
+    },
+    {
+        "qid": "6fbafdb3-a904-4cb1-afde-4cdcb6e3f54e",
+        "text": "What is the output of the following code: print(type([]))?",
+        "qtype": "MCQ",
+        "options": [
+            "<class 'list'>",
+            "<class 'dict'>",
+            "<class 'tuple'>",
+            "<class 'set'>"
+        ],
+        "answer": "<class 'list'>",
+        "topic": "python",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "b8d171f4-4463-4570-a76e-38afe251a00e",
+        "text": "How do you start a comment in Python?",
+        "qtype": "MCQ",
+        "options": [
+            "// comment",
+            "# comment",
+            "/* comment */",
+            "-- comment"
+        ],
+        "answer": "# comment",
+        "topic": "python",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "71a5f7b0-bc71-4d07-8ca6-666ec48c1bd4",
+        "text": "What is the main purpose of React?",
+        "qtype": "MCQ",
+        "options": [
+            "To create server-side applications",
+            "To build user interfaces",
+            "To manage databases",
+            "To perform file operations"
+        ],
+        "answer": "To build user interfaces",
+        "topic": "React js",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 0,
+        "correct_count": 0,
+        "incorrect_count": 0
+    },
+    {
+        "qid": "94645491-00b1-4b29-b85d-53849223f200",
+        "text": "Which of the following is a feature of React?",
+        "qtype": "MCQ",
+        "options": [
+            "Two-way data binding",
+            "Virtual DOM",
+            "Server-side rendering",
+            "All of the above"
+        ],
+        "answer": "Virtual DOM",
+        "topic": "React js",
+        "source": "LLM",
+        "enabled": true,
+        "times_shown": 1,
+        "correct_count": 1,
+        "incorrect_count": 0
+    }
+]

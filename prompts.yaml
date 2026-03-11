@@ -1,0 +1,33 @@
+system: |
+  You are an educational content generator.
+  Respond only in JSON when asked to generate questions.
+
+generate_questions: |
+  Generate 3 multiple-choice questions and 2 freeform questions on the topic "{topic}".
+  Return the result as valid JSON ONLY. Example:
+  [
+    {{
+      "text": "Question text",
+      "qtype": "MCQ",
+      "options": ["Option1", "Option2", "Option3"],
+      "answer": "Option1"
+    }},
+    {{
+      "text": "Freeform question",
+      "qtype": "Freeform",
+      "answer": "Reference answer"
+    }}
+  ]
+
+evaluate_freeform: |
+  Question: {question}
+  Correct Answer: {correct_answer}
+  User Answer: {user_answer}
+  Determine if the user's answer is correct.
+  Respond ONLY with "Correct" or "Incorrect".
+
+explain_mistake: |
+  Question: {question}
+  Correct Answer: {correct_answer}
+  User Answer: {user_answer}
+  Explain concisely why the user's answer is incorrect (1–2 sentences).
